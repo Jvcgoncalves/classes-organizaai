@@ -2,8 +2,6 @@ package classes.jogador;
 
 import java.util.Date;
 
-import classes.usuario.Usuario;
-
 public class Jogador {
 
   private String nome;
@@ -17,15 +15,15 @@ public class Jogador {
   }
 
   public String getFotoDePerfil() {
-    return fotoDePerfil;
+    return this.fotoDePerfil;
   }
 
   public Date getHoraEntradaNaFila() {
-    return horaEntradaNaFila;
+    return this.horaEntradaNaFila;
   }
 
   public String getNome() {
-    return nome;
+    return this.nome;
   }
 
 }

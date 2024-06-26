@@ -16,12 +16,12 @@ public class Usuario {
   }
 
   public void atualizarPerfil(String novoApelido, String novoNumeroDeTelefone, String novoEmail, String novaSenha, String novaFotoDePerfil) {
-      this.apelido = novoApelido;
-      this.numeroDeTelefone = novoNumeroDeTelefone;
-      this.email = novoEmail;
-      this.senha = novaSenha;
-      this.fotoDePerfil = novaFotoDePerfil;
-  }
+    setApelido(novoApelido);
+    setNumeroDeTelefone(novoNumeroDeTelefone);
+    setEmail(novoEmail);
+    setSenha(novaSenha);
+    setFotoDePerfil(novaFotoDePerfil);
+}
 
   public void setApelido(String apelido) {
     this.apelido = apelido;
